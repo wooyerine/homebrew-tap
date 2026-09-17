@@ -1,6 +1,6 @@
 cask "desktop-pet" do
-  version "1.10.6"
-  sha256 "ef2d74649bae91379dcd15cf5524985d8d5e6a0ff9888d6637c8e1108e7d2c25"
+  version "1.10.7"
+  sha256 "af9f660e70e6583d53a5faccd8b54d557d91f2fa890b497d5e16a7c8b6ca9c50"
 
   url "https://github.com/wooyerine/desktop-pet/releases/download/v#{version}/desktop-pet-#{version}-arm64.dmg"
   name "Desktop Pet"
