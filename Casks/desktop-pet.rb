@@ -15,6 +15,7 @@ cask "desktop-pet" do
   # The app updates itself from GitHub Releases; let brew leave it alone.
   auto_updates true
   depends_on arch: :arm64
+  depends_on macos: :big_sur
 
   app "Desktop Pet.app"
 
